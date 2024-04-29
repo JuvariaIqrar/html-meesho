@@ -1,0 +1,1274 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+                                            /* header */
+header{
+    width: 100%;
+    /* height: 100px; */
+    position: fixed;
+    font-weight: 300;
+    background-color: white;
+}
+                                            /* headerr */
+header .headerr{
+    display: flex;
+    padding: .8rem 1rem;
+    justify-content: space-between;
+}
+
+
+header .headerr .menu{
+    display: none;
+    font-size: 2rem;
+}
+
+header .headerr form input{
+    padding-left: 1rem;
+    width: 26rem;
+    height: 2.8rem;
+    font-size: 1rem;
+    border-radius: .3rem;
+    border: 1px solid lightgray;
+    outline: none;
+}
+
+header .headerr .nav-1 ul{
+    display: flex;
+    list-style: none;
+    gap: 1.2rem;
+    
+}
+header .headerr .heart{
+    display: none;
+}
+header .headerr .nav-1 a{
+    text-decoration: none;
+    color: black;
+}
+header .headerr .nav-1 a i{
+    font-size: 1.5rem;
+}
+header .headerr .nav-1 ul .vl{
+    width: 1.2px;
+    height: 40px;
+    background-color: gray;
+}
+header .headerr .nav-1 ul a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-top: .5rem;
+    text-transform: capitalize;
+}
+header .headerr .cart{
+    display: flex;
+    margin-right: 1rem;
+}
+header .headerr .cart p{
+    font-size: 1.2rem;
+    line-height: 1rem;
+    
+}
+header .headerr .cart .bx-user{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+header .headerr .cart .bx-cart{
+    font-size: 1.5rem;
+
+}
+header .headerr .cart #cart{
+    margin-left: 1.5rem;
+}
+header .list #nav-2{
+    font-size: 1.1rem;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+header .list ul a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+}
+header .list ul a li{
+    padding: .5rem;
+}
+header .list ul a .men, .kids, .women{
+    position: relative;
+}
+header .list ul #men:hover .men{
+    display: block;
+    display: flex;
+    list-style: none;
+}
+header .list ul a .men{
+    width: 98%;
+    height: 320px;
+    left: 0px;
+    margin: .6rem 1rem;
+    display: none;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    position: absolute;
+}
+header .list ul a .men ul{
+    list-style: none;
+    padding: .5rem 1rem;
+
+}
+header .list ul a .men #Bottom, #inner, #foot{
+    background-color: rgba(128, 128, 128, 0.118);
+    border-radius: .5rem;
+}
+header .list ul a .men #purple{
+    color: purple;
+    font-weight: 600;
+}
+header .list ul a .men li{
+    padding: .3rem .5rem;
+}
+
+/* Women hover  */
+header .list ul a .Western,.Beauty,.home,.Jewellery,.Bag,.Electronics{
+    width: 98%;
+    height: 320px;
+    left: 0px;
+    margin: .6rem 1rem;
+    display: none;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    position: absolute;
+}
+header .list ul{
+    list-style: none;
+    padding: .5rem 1rem;
+
+}
+header .list ul #Western:hover .Western,#Beauty:hover .Beauty,#Home:hover .home,#Jewellery:hover .Jewellery,#Bag:hover .Bag,#Electronics:hover .Electronics{
+    display: block;
+    display: flex;
+    list-style: none;
+}
+header .list ul a .women #Bottom, #inner, #foot{
+    background-color: rgba(128, 128, 128, 0.118);
+    border-radius: .5rem;
+}
+header .list ul a .women #purple{
+    color: purple;
+    font-weight: 600;
+}
+
+header .list ul a .women{
+    width: 98%;
+    height: 320px;
+    left: 0px;
+    margin: .6rem 1rem;
+    display: none;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    position: absolute;
+}
+header .list ul a .women ul{
+    list-style: none;
+    padding: .5rem 1rem;
+
+}
+header .list ul #women:hover .women{
+    display: block;
+    display: flex;
+    list-style: none;
+}
+header .list ul a .women #Bottom, #inner, #foot{
+    background-color: rgba(128, 128, 128, 0.118);
+    border-radius: .5rem;
+}
+header .list ul a .women #purple{
+    color: purple;
+    font-weight: 600;
+}
+/* end */
+header .list ul a .men li{
+    padding: .3rem .5rem;
+}
+
+header .list ul #kids:hover .kids{
+    display: flex;
+}
+
+header .list ul a .kids{
+    width: 98%;
+    height: 280px;
+    left: 0px;
+    margin: .6rem 1rem;
+    display: none;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    position: absolute;
+}
+header .list ul a .kids ul{
+    padding: .5rem 1rem;
+    list-style: none;
+}
+header .list ul a .kids #purple{
+    color: purple;
+    font-weight: 600;
+}
+header .list ul a .kids .infact, .baby{
+    background-color: rgba(128, 128, 128, 0.118);
+    border-radius: .5rem;
+}
+
+
+                                            /* temp */
+.tem{
+    width: 100%;
+    height: 100%;
+    padding: 9rem 9rem 1rem;
+}
+.tem .tem-1{
+    width: 100%;
+    height: 22rem;
+    background-color: rgba(232, 232, 232, 0.559);
+    display: flex;
+
+}
+.text{
+    padding: 2rem ;
+
+}
+.text h1{
+    font-size: 3rem;
+    /* margin-right: 2rem; */
+}
+.text ul{
+    display: flex;
+    gap: 3rem;
+    font-size: 1.1rem;
+    list-style: none;
+    margin-top: 20px;
+}
+.text a{
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+.text .get{
+    display: flex;
+}
+.text .get{
+    width: 20rem;
+    height: 3rem;
+    background-color: rgb(163, 0, 163);
+    margin-top: 30px;
+    border-radius: .4rem;
+    padding-left: .4rem;
+    padding-top: .2rem;
+    
+}
+.text .get {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: .8rem;
+    font-weight: bold;
+
+}
+.get img{
+    float: left;
+    margin: 0rem .6rem;
+}
+.text .get  span{
+    line-height: 2.4rem;
+}
+                                /* Create line with text */
+.linetext{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.linetext::before, .linetext::after{
+    flex: 1;
+    content: '';
+    padding: 1px;
+    background-color: rgba(128, 128, 128, 0.584);
+    margin: 10px;
+
+}
+
+                                    /* Create temp-2 */
+
+.tem .tem-2{
+    width: 100%;
+    height: 550px;
+    /* background-color: purple; */
+    background-image: url(https://images.meesho.com/images/marketing/1698037513933_1200.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+
+    align-items: flex-end;
+    padding:0px 1rem;
+    padding-bottom: 2rem;
+}
+                                    /*Create  Tem-3 */
+.tem .tem-3{
+    width: 100%;
+    height: 550px;
+    /* background-color: purple; */
+    background-image: url(https://images.meesho.com/images/marketing/1698037513933_1200.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    align-items: flex-end;
+    padding:0px 1rem;
+    padding-bottom: 2rem;
+
+}
+.tem-3 .item {
+    margin-bottom: 7rem;
+}
+.tem-3 .t-1{
+    margin-left: 25rem;
+}
+                                        /*Create  Tem-4 */
+.tem .tem-4{
+    width: 100%;
+    height: 550px;
+    /* background-color: purple; */
+    background-image: url(https://images.meesho.com/images/marketing/1698037513933_1200.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding:0px 1rem;
+    padding-bottom: 2rem;
+
+}
+.tem-4 .saman{
+    margin-bottom: 7rem;
+
+}
+.tem-4 .s-1{
+    margin-left: 25rem;
+}
+                                       
+                        /*Create  Tem-5 */          
+.tem .tem-5{
+    width: 100%;
+    height: 550px;
+    margin-top: 4rem;
+    position: relative;
+    z-index: -1;
+    background-color: aqua;
+    background-image: url("https://images.meesho.com/images/pow/downloadBannerDesktop_1050.webp");
+
+}
+.tem .item-5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.tem .tem-5 .textt {
+    position: absolute;
+    top: 40px;
+    right: 3rem;
+    text-align:right;
+    font-size:2rem ;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 1rem;
+
+}
+.tem-5 p{
+    color:rgb(18, 18, 134);
+}
+.tem-5 h2{
+    margin-top:1rem;
+    color: rgb(179, 34, 123);
+}
+
+.tem-5 .appbazar{
+    display: flex;
+    gap: 1.5rem;
+    margin-top:2rem;
+    margin-left: 10rem;
+
+}
+.tem-5 .appbazar img{
+    width: 200px;
+    /* margin-right: 6rem; */
+}
+                       /*Create  Tem-6 */          
+                        
+.tem .tem-6{
+    width: 100%;
+    margin-top: 4rem;
+    z-index: -1;
+    position: relative;
+}
+.tem-6 img{
+    width: 100%;
+    object-fit: cover;
+}
+.tem-6 .teext{
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+    color: white;
+    font-weight: bold;
+}
+.teext .title{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.teext .subtitle{
+    font-size: 1.1rem;
+}
+.teext .btn{
+    width: 10rem;
+    display: block;
+    padding: .4rem 1.5rem;
+    font-size: 1.4rem;
+    background-color: white;
+    color: purple;
+    margin-top: 2rem;
+}
+                                    /* main part  */
+#product{
+    font-size: 2.5rem;
+    padding: .6rem 1rem;
+
+}
+.product{
+    width: 100%;
+    display: flex;
+    padding: .6rem 1rem;
+
+}
+.mobile{
+    width: 100px;
+    height: 60px;
+    display: flex;
+    display: none;
+    z-index: 2;
+    /* margin: .5rem 0px; */
+    background-color: white;
+}
+.mobile span{
+    padding: .5rem 1.2rem;
+    border: .5px solid lightgray;
+    border-top: 1px solid lightgray;
+    text-transform: capitalize;
+}
+.product .left{
+    width:30%;
+    height: 100vh;
+    position: relative;
+
+}
+.product .left .itemrelevat{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 250px;
+    top: 3rem;
+    left: 0px;
+    overflow: scroll;
+    border-radius: .5rem;
+    border: 1px solid lightgray;
+    background-color: white;
+    box-shadow: 0px 2px 2px 0px rgb(110, 110, 110);
+
+}
+.product .left .itemrelevat ul a{
+    text-decoration: none;
+}
+
+.product .left .itemrelevat ul a li {
+    width: 100%;
+    height: 3rem;
+    font-size: 1rem;
+    padding: .9rem 2rem;
+    list-style: none;
+    color: black;
+}
+.product .left .itemrelevat ul a #magenta{
+    background-color: rgba(255, 0, 255, 0.12);
+}
+.product .left .itemrelevat ul a li:hover{
+    background-color: rgba(173, 216, 230, 0.156);
+}
+.left .sort{
+    width: 100%;
+    height: 2.8rem;
+    display: flex;
+    align-items: center;
+    padding: 0px 1rem;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    border: 1px solid lightgray; 
+
+}
+.left .bx-chevron-down{
+    transform: rotate(180deg);
+
+}
+.left .sort p .bx-chevron-down{
+    margin-left: 6.5rem;
+
+}
+.left .filter #genderlist,#checkfabric{
+    display: none;
+}
+.left .filter{
+    width: 100%;
+    height:800px;
+    border: 1px solid lightgray;
+    border-radius: .5rem;
+    padding: 1rem;
+    
+}
+
+.left .filter div i, .sort i{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.left .filter #filt{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.left .filter #pro{
+    margin-bottom: 1rem;
+}
+.left .filter h3{
+    margin: .6rem 0rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter ul li{
+    font-size: 1rem;
+    list-style: none;
+    font-weight: lighter;
+    margin-top: .5rem;
+    margin-right: .5rem;
+    display: inline-block;
+    border: 1px solid black;
+    padding: .3rem .9rem;
+    border-radius: 1.2rem;
+    margin-bottom: 1rem;
+
+}
+#categories form input{
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+#categories #search{
+    width: 100%;
+    height: 2.3rem;
+    border-radius: .4rem ;
+    border: 1px solid gray;
+}
+#check{
+    display: none;
+}
+.filter div span{
+    color: rgb(126, 126, 126);
+}
+
+#size #search{
+    width: 100%;
+    height: 2.3rem;
+    border-radius: .4rem ;
+    border: 1px solid gray;
+    padding-left: 1rem;
+
+}
+.filter form input{
+    margin-bottom: 1rem;
+}
+#fabric #search{
+    width: 100%;
+    height: 2.3rem;
+    border-radius: .4rem ;
+    border: 1px solid gray;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+
+
+                                          /* Right side */
+.product .right{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0rem 1rem;
+    justify-content: space-between;
+
+}
+.right  .card{
+    width: 220px;
+    height: 350px;
+    border: 1px solid lightgray;
+    border-radius: .5rem;
+    margin-bottom: 10px;
+}
+.card img{
+    width: 100%;
+    height: 50%;
+    object-fit:contain;
+}
+.card .price{
+    display: flex;
+    align-items: baseline;
+}
+.card .textcard{
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    gap: 12px;
+}
+.card .textcard .name,sub{
+    color: rgba(128, 128, 128, 0.795);
+}
+.card .textcard .star{
+    display: flex;
+    align-items: baseline;
+    gap:8px;
+}
+.card .textcard p{
+    text-transform: capitalize;
+}
+.card h3{
+    background-color:rgb(18, 140, 16);
+    /* width: 4.2rem; */
+    border-radius: 1.5rem;
+    padding: .2rem .5rem;
+    color: white;
+}
+.card #delevery{
+    width: 90px;
+    border-radius: .5rem;
+    margin-bottom: 10px;
+    padding:.1rem .5rem;
+    font-weight: 100;
+    font-size: .8rem;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.095);
+}
+footer{
+    margin-top: 2.5rem;
+    width:100%;
+    height: 75vh;
+    padding:4rem 1rem;
+    background-color: rgba(193, 187, 187, 0.143);
+    z-index: -1;
+
+
+}
+.mainfoot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mainfoot .down{
+    width: 430px;
+}
+.mainfoot .down hr{
+    display: none;
+}
+.mainfoot .down h1{
+    font-size: 2.1rem;
+    font-weight:400;
+    color: rgba(0, 0, 0, 0.765);
+}
+.mainfoot .down .play{
+    display: flex;
+    gap:7px;
+}
+.mainfoot .down .play #stor{
+    height: 3rem;
+}
+
+.mainfoot .down .play img{
+    width: 180px;
+    border-radius: 5px;
+
+}
+.mainfoot .down p{
+    color: rgb(100, 98, 98);
+    font-size: 1.1rem;
+    padding:1.3rem .1rem;
+    font-weight: lighter;
+}
+.mainfoot .careers a{
+    display: block;
+    color: rgb(100, 97, 97);
+    padding: .5rem;
+    font-size: 1.1rem;
+    text-decoration-line: none;
+}
+.mainfoot .policy a{
+    display: block;
+    color: rgb(100, 98, 98);
+    padding: .5rem;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.mainfoot .follow{
+    width: 200px;
+}
+.mainfoot .follow img{
+    width: 25px;
+    margin: .2rem;
+}
+.mainfoot #reach{
+    font-size:1.2rem;
+    font-weight: bold;
+
+}
+.mainfoot .contact {
+    width:220px;
+}
+.mainfoot .contact p{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.mainfoot .contact span{
+    color: rgb(100, 98, 98);
+    font-weight: 400;
+    font-size:13px;
+    padding-top: 3rem;
+    /* font-variant: normals; */
+}
+footer .subfoot{
+    width: 100%;
+    /* height:3.5rem; */
+    border: .5px solid rgba(0, 0, 0, 0.412);
+    margin-top: 4rem;
+    padding: .5rem 2rem;
+    border-radius: .5rem;
+    background-color: white;
+
+}
+.subfoot #title{
+    display: flex;
+    text-transform: capitalize;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    
+}
+.subfoot hr{
+    margin: .5rem 0rem;
+}
+.subfoot #title span i{
+    font-size: 2.2rem;
+    color: rgb(100, 98, 98);
+}
+
+.mobtemp{
+    display: none;
+}
+.holdfoot,.Daily-Deals,.bazar,#mobsearch{
+    display: none;
+}
+.mobnav{
+    width: 10%;
+    height:90vh;
+    display: none;
+    /* position: absolute; */
+    top: 52px;
+    left: 0px;
+    background-color: white;
+    border-top: 2px solid gray;
+    overflow: scroll;
+    
+}
+.mobnav .termitem{
+    width: 31%;
+    height: 100vh;
+    overflow: scroll;
+    background-color: rgba(211, 211, 211, 0.286);
+
+}
+.mobnav .termitem span{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+    align-items: center;
+    border-bottom:1px solid black ;
+    padding: .7rem;
+    text-align: center;
+}
+.mobnav .termitem span img{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    mix-blend-mode:darken;
+    background-color: black;
+}
+.mobnav .itemdata{
+    width:68%;
+    height: 100vh;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.mobnav .itemdata span{
+    height: 6rem;
+    width: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .7rem;
+    text-align: center;
+    font-size: .9rem;
+}
+.mobnav .itemdata span img{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    mix-blend-mode:darken;
+    background-color: black;
+}
+
+@media screen and (min-width:0px) and (max-width:600px){
+    header .headerr form, .nav-1, .list{
+        display: none;
+    }
+    header .headerr .cart{
+        display: none;
+
+    }
+    header{
+        height:52px;
+        /* background-color: transparent; */
+        top: 0px;
+        z-index: 5;
+    }
+    header .headerr {
+        justify-content:space-between;
+
+    }
+    header .headerr .menu{
+        display: block;
+        margin-top: 7px;
+        position: relative;
+    }
+    
+    
+/* --------------------------------mobile menu bar----------------------------------------- */
+    
+    header .headerr .logo{
+        display: flex;
+        gap: 1rem;
+    }
+    header .headerr .logo svg{
+        width: 115px;
+
+    }
+    header hr{
+        display: none ;
+    }
+    header .headerr .heart{
+        display: block;
+        font-size: 1.5rem;
+        margin-top: .5rem;
+    }
+    header .headerr .heart .bxs-heart{
+        color: red ;
+    }
+    .bxs-cart-alt{
+        color: purple;
+    }
+    .tem{
+        display: none;
+    }
+
+    .left{
+        display: none;
+    }
+    .mobile{
+        position: sticky;
+        top: 0px;
+        display: block;
+        display: flex;
+        width: 100%;
+        /* padding-top: 1rem; */
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    .mobile span{
+        width: 100%;
+        padding: 0px;
+        gap: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mobile span i{
+        font-size: 1.3rem;
+        color: gray;
+    }
+    .mobtemp{
+        width: 100%;
+        margin-bottom: .5rem;
+        display: flex;
+        gap: .8rem;
+        margin-top: .5rem;
+        padding: 1rem 0rem;
+        flex-flow: column wrap;
+        background-color: rgba(128, 128, 128, 0.100);
+
+    }
+    #mobsearch{
+        display: block;
+        width: 100%;
+        padding: 0rem 1rem;
+    }
+    #mobsearch input{
+    padding-left: 1rem;
+    width: 100%;
+    height: 3rem;
+    font-size: .8rem;
+    border-radius: .5rem;
+    border: 2px solid rgba(0, 0, 0, 0.406);
+    margin-top: 4rem;
+    }
+    
+    .product{
+        padding: 0px;
+    }
+    .msize{
+        width: 100%;
+    }
+    .product .right{
+        width: 100%;
+        padding: 0rem;
+    }
+    
+    .right .card{
+        width: 50%;
+        border-radius: 0px;
+        margin-bottom: 0px;
+    }
+    .card .textcard #Review{
+        display: none;
+    }
+    
+    .mainfoot{
+        height: 10rem;
+    }
+    .mainfoot .down{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .loca{
+        width: 95%;
+        height: 2rem;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        padding: 0rem 1rem;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .loca i{
+        font-size: 1.2rem;
+        color: rgba(0, 0, 255, 0.584);
+
+    }
+    .loca p{
+        width: 75%;
+        font-weight: 500;
+        font-size: .8rem;
+    }
+                                        /* circlesale */
+    .circlesale{
+        width: 100%;
+        height: 120px;
+        display:flex;
+        align-items: center;
+        overflow: scroll;
+        background-color: white;
+    }
+    .circlesale::-webkit-scrollbar{
+        color: transparent;
+    }
+    
+    .circle{
+        width: 90px;
+        height: 80px;
+        text-transform: capitalize;
+        padding-left: 1rem;
+        margin-top: 1rem;
+        text-align: center;
+        justify-content: center;
+    }
+    .circle img{
+        width:60px;
+        height:60px;
+        margin-bottom: .3rem;
+        object-fit: cover;
+        border-radius: 50%;
+
+    }
+    .circle .im{
+        width:60px;
+        height:60px;
+        border-radius: 50%;
+        background-color: lightblue;
+        margin-bottom: .3rem;
+
+    }
+    .circle .im i{
+        text-align: center;
+        font-size: 2.2rem;
+        margin-top: .8rem;
+    }
+    .circle a{
+        text-decoration: none;
+        color: black;
+    }
+    .circle p{
+        font-size: .8rem;
+    }
+    #return{
+        width: 100%;
+    }
+                                    /* Daily-Deals */
+    .Daily-Deals{
+        width: 100%;
+        height: 210px;
+        padding:.5rem 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: .5rem;
+        background-color: white;
+
+    }
+    .Daily-Deals h3{
+        display: flex;
+        padding: 0rem 1rem;
+        justify-content: space-between;
+        text-transform:capitalize;
+
+    }
+    .Daily-Deals h3 span{
+        color: purple;
+        text-transform: uppercase;
+        font-size: 1rem;
+
+    }
+    .Daily-Deals p{
+        text-transform: capitalize;
+        color: gray;
+        padding: 0rem 1rem;
+
+    }
+    .Daily-Deals .saleslide{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        padding-left: 1rem;
+        gap: 1.2rem;
+        overflow: scroll;
+        margin-top: .5rem;
+    }
+    .saleslide::-webkit-scrollbar{
+        color: transparent;
+
+    }
+   
+    .salecard{
+        width: 95px;
+        height: 109px;
+        position: relative;
+        border-radius: 12px;
+        border: 1px solid gray;
+    }
+    .salecard img{
+        width: 100%;
+        height: 80%;
+        border-radius: 12px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        object-fit:cover;
+    }
+    .Daily-Deals .salecard p{
+        width: 100%;
+        /* background-color: white; */
+        position:absolute;
+        /* bottom: 3px; */
+        font-size: .8rem;
+        text-align: center;
+        color: black;
+    }
+    .bazar{
+        width: 100%;
+        height: 180px;
+        padding: 1rem 0rem;
+        display: flex;
+        background-color: white;
+    }
+    .bazar .under{
+        width: 100%;
+        height: 130px;
+        margin-top: 2rem;
+        display:flex;
+        gap: .9rem;     
+        padding-left: 1rem;
+        overflow: scroll;
+        text-transform: capitalize;
+    }
+    .bazar .under::-webkit-scrollbar{
+        color: transparent;
+    }
+    .bazar .un{
+        width: 97px;
+        height: 110px;
+        object-fit: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(90, 0, 90);
+        padding: .2rem;
+        border-radius: .5rem;
+        flex-shrink: 0;
+
+    }
+    .bazar .un img{
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+        border-radius: .5rem;
+    }
+    .bazar::after{
+        content: "bachat bachaar";
+        text-transform: capitalize;
+        font-weight: 500;
+        font-size:1.2rem;
+        padding-left: 1rem;
+        position: absolute;
+        letter-spacing: .5px;
+     }
+    .bazar .un p{
+        margin: .3rem 0px;
+        color: rgb(2, 184, 216);
+        font-size:.8rem;
+    }
+    #product{
+        font-size:1.5rem;
+        font-weight: 350;
+    }
+    .mainfoot .down h1{
+        font-size:1.3rem ;
+    }
+    .mainfoot .down p{
+        font-size: .9rem;
+        margin-bottom: .2rem;
+    }
+    .mainfoot .down .play img{
+        width: 100%;
+    }
+    .mainfoot .down hr{
+        display: block;
+    }
+    .mainfoot hr{
+        width: 100%;
+        margin: 2rem 1rem;
+    }
+    .mainfoot .follow{
+        margin-top: 1rem;
+    }
+    .mainfoot .contact{
+        width: 100%;
+    }
+    footer .careers{
+        width: 45%;
+    }
+    footer .subfoot{
+        width: 100%;
+        padding: 0px;
+        margin-top: 34rem;
+        border: none;
+    }
+    footer .subfoot p{
+        width: 100%;
+        padding: 0rem;
+    }
+    
+    .holdfoot{
+        display: block;
+        width: 100%;
+        height: 3rem ;
+        position: relative;
+        bottom: 0rem;
+        background-color: white;
+        position: fixed;
+        display: flex;
+        /* flex-direction: row; */
+        font-size: small;
+        padding: .0rem 1rem;
+        justify-content: space-between;
+        text-transform: capitalize;
+        color: rgb(100, 98, 98);
+        box-shadow: 0px 0px 1px 0px black;
+    }
+    .holdfoot .size a{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: rgb(89, 89, 89);
+
+        justify-content: center;
+
+    }
+    .holdfoot .size i{
+        font-size: 1.6rem;
+        font-weight: lighter;
+    }
+    .subfoot .title_data h3{
+        /* font-size: large; */
+        letter-spacing: .02rem;
+        font-weight: 400;
+        line-height: 1.7rem;
+        margin-bottom: .5rem;
+    }
+    .subfoot .title_data p{
+        font-size: smaller;
+        color: rgb(89, 89, 89);
+    } 
+}
